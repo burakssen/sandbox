@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Raylib WASM Canvas</title>
+<style>
+  html, body { margin:0; height:100%; background:#000; display:flex; justify-content:center; align-items:center; }
+  canvas {
+    background:#000; touch-action:none; image-rendering:crisp-edges;
+    width: calc(100vw - 40px);  /* 20px margin each side */
+    height: calc(100vh - 40px);
+    display:block;
+  }
+  #loading-status {
+    position:absolute; inset:0; background:rgba(0,0,0,0.7);
+    display:flex; flex-direction:column; justify-content:center; align-items:center;
+    color:#fff; font-family:sans-serif;
+  }
+  .spinner {
+    width:40px; height:40px; border:4px solid rgba(255,255,255,0.3);
+    border-top-color:#3a86ff; border-radius:50%; animation:spin 1s linear infinite; margin-bottom:16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<canvas id="canvas" tabindex="1" oncontextmenu="event.preventDefault()"></canvas>
+<div id="loading-status">
+  <div class="spinner"></div>
+  <div id="loading-text">Loading...</div>
+</div>
+
+<script>
+const canvas = document.getElementById("canvas");
+const loadingStatus = document.getElementById("loading-status");
+const loadingText = document.getElementById("loading-text");
+
+var Module = {
+  canvas,
+  print: console.log,
+  printErr: console.error,
+  totalDependencies: 0,
+  monitorRunDependencies(left) {
+    this.totalDependencies = Math.max(this.totalDependencies, left);
+    loadingText.textContent = left ? `Loading... (${this.totalDependencies-left}/${this.totalDependencies})` : '';
+    if (!left) loadingStatus.style.display = "none";
+  },
+  onRuntimeInitialized() { loadingStatus.style.display="none"; }
+};
+
+canvas.addEventListener("click", () => canvas.focus());
+["touchstart","keydown"].forEach(e => canvas.addEventListener(e, ev => ev.preventDefault(), {passive:false}));
+</script>
+<script src="Sandbox.js" async></script>
+</body>
+</html>

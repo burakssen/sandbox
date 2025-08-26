@@ -1,0 +1,16 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# Find dependencies
+find_dependency(raylib REQUIRED)
+find_dependency(EnTT REQUIRED)
+
+# Include the exported targets
+include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@Targets.cmake")
+
+# Add include directories
+get_target_property(@PROJECT_NAME@_INCLUDE_DIRS "@PROJECT_NAME@::@PROJECT_NAME@" INTERFACE_INCLUDE_DIRECTORIES)
+
+# Version check
+check_required_components(@PROJECT_NAME@)
