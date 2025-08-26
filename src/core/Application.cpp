@@ -173,17 +173,57 @@ void Application::processInput()
                        CheckCollisionPointRec(mousePos, fireBtn) ||
                        CheckCollisionPointRec(mousePos, clearBtn);
 
-    // Only update GUI lock if mouse is over GUI elements
-    if (IsMouseButtonDown(MOUSE_LEFT_BUTTON) || IsMouseButtonDown(MOUSE_RIGHT_BUTTON))
+    // Update GUI lock state based on mouse interaction with GUI elements
+    if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON) || IsMouseButtonPressed(MOUSE_RIGHT_BUTTON))
     {
+        // Only lock if clicking on GUI elements
         m_guiLock = mouseOverGUI;
     }
-    else if (!IsMouseButtonDown(MOUSE_LEFT_BUTTON) && !IsMouseButtonDown(MOUSE_RIGHT_BUTTON))
+    else if (IsMouseButtonReleased(MOUSE_LEFT_BUTTON) || IsMouseButtonReleased(MOUSE_RIGHT_BUTTON))
     {
         m_guiLock = false;
     }
 
-    // Draw buttons and handle clicks
+    // Allow particle creation if not over GUI elements or if we're already drawing
+    bool canCreateParticles = !mouseOverGUI || (IsMouseButtonDown(MOUSE_LEFT_BUTTON) && !m_guiLock);
+
+    // Handle mouse input for drawing particles
+    if (IsMouseButtonDown(MOUSE_LEFT_BUTTON) && canCreateParticles)
+    {
+        Vector2 mouse = getScaledMousePosition();
+        int centerX = mouse.x;
+        int centerY = mouse.y;
+
+        // Create a more natural distribution of particles
+        int radius = 10;
+        int radiusSq = radius * radius;
+        int numParticles = IsMouseButtonDown(MOUSE_BUTTON_LEFT) ? 5 : 20; // More particles for right click
+
+        for (int i = 0; i < numParticles; i++)
+        {
+            // Create a more natural distribution using polar coordinates
+            float angle = GetRandomValue(0, 628) / 100.0f; // 0-2π in radians * 100
+            float dist = GetRandomValue(0, radius * 100) / 100.0f;
+
+            // Convert to cartesian coordinates
+            int x = centerX + (int)(cosf(angle) * dist);
+            int y = centerY + (int)(sinf(angle) * dist);
+
+            // Add some randomness to the position for a more natural look
+            x += GetRandomValue(-1, 1);
+            y += GetRandomValue(-1, 1);
+
+            // Only add if within world bounds
+            if (x >= 0 && x < m_world.width() && y >= 0 && y < m_world.height())
+            {
+                m_world.addPixel(x, y, m_currentType);
+            }
+        }
+    }
+
+    // Set scissor mode just for GUI elements
+    // Note: raylib's scissor mode is global, so we'll just set it for GUI
+    // and then disable it after we're done
     BeginScissorMode(0, 0, 240, 160);
 
     // Sand Button
@@ -235,6 +275,7 @@ void Application::processInput()
         m_world.clear();
     }
 
+    // Disable scissor mode after GUI drawing
     EndScissorMode();
 
     // Draw current selection indicator
@@ -285,8 +326,8 @@ void Application::processInput()
             x += GetRandomValue(-1, 1);
             y += GetRandomValue(-1, 1);
 
-            // Only add if within bounds
-            if (x >= 0 && x < 640 && y >= 0 && y < 360)
+            // Only add if within world bounds
+            if (x >= 0 && x < m_world.width() && y >= 0 && y < m_world.height())
             {
                 m_world.addPixel(x, y, m_currentType);
             }
