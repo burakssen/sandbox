@@ -1,48 +1,48 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.o: \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/rtextures.c \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/raylib.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/stdarg.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stdarg.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg_header_macro.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg___gnuc_va_list.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_list.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_arg.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg___va_copy.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_copy.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/stdbool.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/stdarg.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg_header_macro.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg___gnuc_va_list.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_list.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_arg.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg___va_copy.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stdarg_va_copy.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/stdbool.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stdbool.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/config.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/utils.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/rlgl.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/string.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/string.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stdio.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/wasi/api.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/stddef.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stddef.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_header_macro.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_ptrdiff_t.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_size_t.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_wchar_t.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_null.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/__stddef_offsetof.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/stdint.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/stddef.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_header_macro.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_ptrdiff_t.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_size_t.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_wchar_t.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_null.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/__stddef_offsetof.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/stdint.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/external/stb_image.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/lib/clang/22/include/limits.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /home/runner/work/_temp/102abc09-865d-4b69-87ce-5d7497634aba/emsdk-main/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/lib/clang/22/include/limits.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot/include/assert.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/external/rl_gputex.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/external/qoi.h \
   /home/runner/work/sandbox/sandbox/build/_deps/raylib-src/src/external/stb_image_write.h \
