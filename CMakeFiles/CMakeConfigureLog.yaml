@@ -21,8 +21,8 @@ events:
       - "uname"
     candidate_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -40,8 +40,8 @@ events:
       - "/usr/local/games/"
     searched_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/uname"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/uname"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/uname"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/uname"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/uname"
       - "/snap/bin/uname"
       - "/home/runner/.local/bin/uname"
       - "/opt/pipx_bin/uname"
@@ -56,10 +56,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -105,8 +105,8 @@ events:
       - "smake"
     candidate_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -126,8 +126,8 @@ events:
       - "/sbin/"
     searched_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/gmake"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/gmake"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/gmake"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/gmake"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/gmake"
       - "/snap/bin/gmake"
       - "/home/runner/.local/bin/gmake"
       - "/opt/pipx_bin/gmake"
@@ -142,10 +142,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -164,7 +164,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -186,9 +186,9 @@ events:
       - "llvm-strip"
       - "strip"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -207,9 +207,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-strip"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-strip"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-strip"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-strip"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-strip"
       - "/snap/bin/llvm-strip"
       - "/home/runner/.local/bin/llvm-strip"
       - "/opt/pipx_bin/llvm-strip"
@@ -227,9 +227,9 @@ events:
       - "/usr/local/games/llvm-strip"
       - "/bin/llvm-strip"
       - "/sbin/llvm-strip"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/strip"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/strip"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/strip"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/strip"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/strip"
       - "/snap/bin/strip"
       - "/home/runner/.local/bin/strip"
       - "/opt/pipx_bin/strip"
@@ -244,10 +244,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -266,7 +266,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -288,9 +288,9 @@ events:
       - "ld.lld"
       - "ld"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -309,9 +309,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/ld.lld"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/ld.lld"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/ld.lld"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/ld.lld"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/ld.lld"
       - "/snap/bin/ld.lld"
       - "/home/runner/.local/bin/ld.lld"
       - "/opt/pipx_bin/ld.lld"
@@ -329,9 +329,9 @@ events:
       - "/usr/local/games/ld.lld"
       - "/bin/ld.lld"
       - "/sbin/ld.lld"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/ld"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/ld"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/ld"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/ld"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/ld"
       - "/snap/bin/ld"
       - "/home/runner/.local/bin/ld"
       - "/opt/pipx_bin/ld"
@@ -346,10 +346,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -368,7 +368,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -390,9 +390,9 @@ events:
       - "llvm-objdump"
       - "objdump"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -411,9 +411,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-objdump"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-objdump"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-objdump"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-objdump"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-objdump"
       - "/snap/bin/llvm-objdump"
       - "/home/runner/.local/bin/llvm-objdump"
       - "/opt/pipx_bin/llvm-objdump"
@@ -431,9 +431,9 @@ events:
       - "/usr/local/games/llvm-objdump"
       - "/bin/llvm-objdump"
       - "/sbin/llvm-objdump"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/objdump"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/objdump"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/objdump"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/objdump"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/objdump"
       - "/snap/bin/objdump"
       - "/home/runner/.local/bin/objdump"
       - "/opt/pipx_bin/objdump"
@@ -448,10 +448,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -470,7 +470,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -492,9 +492,9 @@ events:
       - "llvm-objcopy"
       - "objcopy"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -513,9 +513,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-objcopy"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-objcopy"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-objcopy"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-objcopy"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-objcopy"
       - "/snap/bin/llvm-objcopy"
       - "/home/runner/.local/bin/llvm-objcopy"
       - "/opt/pipx_bin/llvm-objcopy"
@@ -533,9 +533,9 @@ events:
       - "/usr/local/games/llvm-objcopy"
       - "/bin/llvm-objcopy"
       - "/sbin/llvm-objcopy"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/objcopy"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/objcopy"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/objcopy"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/objcopy"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/objcopy"
       - "/snap/bin/objcopy"
       - "/home/runner/.local/bin/objcopy"
       - "/opt/pipx_bin/objcopy"
@@ -550,10 +550,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -572,7 +572,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -594,9 +594,9 @@ events:
       - "llvm-readelf"
       - "readelf"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -615,9 +615,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-readelf"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-readelf"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-readelf"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-readelf"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-readelf"
       - "/snap/bin/llvm-readelf"
       - "/home/runner/.local/bin/llvm-readelf"
       - "/opt/pipx_bin/llvm-readelf"
@@ -635,9 +635,9 @@ events:
       - "/usr/local/games/llvm-readelf"
       - "/bin/llvm-readelf"
       - "/sbin/llvm-readelf"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/readelf"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/readelf"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/readelf"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/readelf"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/readelf"
       - "/snap/bin/readelf"
       - "/home/runner/.local/bin/readelf"
       - "/opt/pipx_bin/readelf"
@@ -652,10 +652,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -674,7 +674,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -696,9 +696,9 @@ events:
       - "llvm-dlltool"
       - "dlltool"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -717,9 +717,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-dlltool"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-dlltool"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-dlltool"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-dlltool"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-dlltool"
       - "/snap/bin/llvm-dlltool"
       - "/home/runner/.local/bin/llvm-dlltool"
       - "/opt/pipx_bin/llvm-dlltool"
@@ -737,9 +737,9 @@ events:
       - "/usr/local/games/llvm-dlltool"
       - "/bin/llvm-dlltool"
       - "/sbin/llvm-dlltool"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/dlltool"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/dlltool"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/dlltool"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/dlltool"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/dlltool"
       - "/snap/bin/dlltool"
       - "/home/runner/.local/bin/dlltool"
       - "/opt/pipx_bin/dlltool"
@@ -761,10 +761,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -783,7 +783,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -805,9 +805,9 @@ events:
       - "llvm-addr2line"
       - "addr2line"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -826,9 +826,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/llvm-addr2line"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/llvm-addr2line"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/llvm-addr2line"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/llvm-addr2line"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/llvm-addr2line"
       - "/snap/bin/llvm-addr2line"
       - "/home/runner/.local/bin/llvm-addr2line"
       - "/opt/pipx_bin/llvm-addr2line"
@@ -846,9 +846,9 @@ events:
       - "/usr/local/games/llvm-addr2line"
       - "/bin/llvm-addr2line"
       - "/sbin/llvm-addr2line"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/addr2line"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/addr2line"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/addr2line"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/addr2line"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/addr2line"
       - "/snap/bin/addr2line"
       - "/home/runner/.local/bin/addr2line"
       - "/opt/pipx_bin/addr2line"
@@ -863,10 +863,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -885,7 +885,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -906,9 +906,9 @@ events:
     names:
       - "tapi"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -927,9 +927,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/tapi"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/tapi"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/tapi"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/tapi"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/tapi"
       - "/snap/bin/tapi"
       - "/home/runner/.local/bin/tapi"
       - "/opt/pipx_bin/tapi"
@@ -951,10 +951,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -973,7 +973,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -997,9 +997,9 @@ events:
       - "clang-scan-deps22"
       - "clang-scan-deps"
     candidate_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -1018,9 +1018,9 @@ events:
       - "/bin/"
       - "/sbin/"
     searched_directories:
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/clang-scan-deps-22.0"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/clang-scan-deps-22.0"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/clang-scan-deps-22.0"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/clang-scan-deps-22.0"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/clang-scan-deps-22.0"
       - "/snap/bin/clang-scan-deps-22.0"
       - "/home/runner/.local/bin/clang-scan-deps-22.0"
       - "/opt/pipx_bin/clang-scan-deps-22.0"
@@ -1038,9 +1038,9 @@ events:
       - "/usr/local/games/clang-scan-deps-22.0"
       - "/bin/clang-scan-deps-22.0"
       - "/sbin/clang-scan-deps-22.0"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/clang-scan-deps-22"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/clang-scan-deps-22"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/clang-scan-deps-22"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/clang-scan-deps-22"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/clang-scan-deps-22"
       - "/snap/bin/clang-scan-deps-22"
       - "/home/runner/.local/bin/clang-scan-deps-22"
       - "/opt/pipx_bin/clang-scan-deps-22"
@@ -1058,9 +1058,9 @@ events:
       - "/usr/local/games/clang-scan-deps-22"
       - "/bin/clang-scan-deps-22"
       - "/sbin/clang-scan-deps-22"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/clang-scan-deps22"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/clang-scan-deps22"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/clang-scan-deps22"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/clang-scan-deps22"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/clang-scan-deps22"
       - "/snap/bin/clang-scan-deps22"
       - "/home/runner/.local/bin/clang-scan-deps22"
       - "/opt/pipx_bin/clang-scan-deps22"
@@ -1078,9 +1078,9 @@ events:
       - "/usr/local/games/clang-scan-deps22"
       - "/bin/clang-scan-deps22"
       - "/sbin/clang-scan-deps22"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/clang-scan-deps"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/clang-scan-deps"
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/clang-scan-deps"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/clang-scan-deps"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/clang-scan-deps"
       - "/snap/bin/clang-scan-deps"
       - "/home/runner/.local/bin/clang-scan-deps"
       - "/opt/pipx_bin/clang-scan-deps"
@@ -1102,10 +1102,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -1124,7 +1124,7 @@ events:
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "find-v1"
     backtrace:
@@ -1151,8 +1151,8 @@ events:
       - "git"
     candidate_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/"
       - "/snap/bin/"
       - "/home/runner/.local/bin/"
       - "/opt/pipx_bin/"
@@ -1172,8 +1172,8 @@ events:
       - "/sbin/"
     searched_directories:
       - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/git"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/git"
-      - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/git"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/git"
+      - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/git"
       - "/snap/bin/git"
       - "/home/runner/.local/bin/git"
       - "/opt/pipx_bin/git"
@@ -1188,10 +1188,10 @@ events:
     search_context:
       ENV{PATH}:
         - "/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main"
-        - "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main"
+        - "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten"
         - "/snap/bin"
         - "/home/runner/.local/bin"
         - "/opt/pipx_bin"
@@ -1207,14 +1207,14 @@ events:
         - "/bin"
         - "/usr/games"
         - "/usr/local/games"
-      CMAKE_INSTALL_PREFIX: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_INSTALL_PREFIX: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/"
         - "/"
         - "/"
         - "/"
         - "/"
-      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cache/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cache/sysroot"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1227,29 +1227,29 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ"
-      binary: "/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ"
+      source: "/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip"
+      binary: "/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip"
     cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/emscan-deps"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/emscan-deps"
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/sandbox/sandbox/build/_deps/raylib-src/cmake"
+      CMAKE_MODULE_PATH: "/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/cmake/Modules;/home/runner/work/sandbox/sandbox/build/_deps/raylib-src/cmake"
     buildResult:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ'
+        Change Dir: '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip'
         
-        Run Build Command(s): /opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b8d3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3b8d3.dir/build.make CMakeFiles/cmTC_3b8d3.dir/build
-        gmake[1]: Entering directory '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ'
-        Building C object CMakeFiles/cmTC_3b8d3.dir/src.c.o
-        /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_3b8d3.dir/src.c.o -MF CMakeFiles/cmTC_3b8d3.dir/src.c.o.d -o CMakeFiles/cmTC_3b8d3.dir/src.c.o -c /home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ/src.c
+        Run Build Command(s): /opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac36c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ac36c.dir/build.make CMakeFiles/cmTC_ac36c.dir/build
+        gmake[1]: Entering directory '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip'
+        Building C object CMakeFiles/cmTC_ac36c.dir/src.c.o
+        /home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_ac36c.dir/src.c.o -MF CMakeFiles/cmTC_ac36c.dir/src.c.o.d -o CMakeFiles/cmTC_ac36c.dir/src.c.o -c /home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip/src.c
         shared:INFO: (Emscripten: Running sanity checks)
-        Linking C executable cmTC_3b8d3.js
-        /opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b8d3.dir/link.txt --verbose=1
-        /home/runner/work/_temp/a2c9fc6a-4d3f-4ba1-82bf-d924c87dc8c6/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_3b8d3.dir/objects1.rsp -o cmTC_3b8d3.js
-        gmake[1]: Leaving directory '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-FqBkEJ'
+        Linking C executable cmTC_ac36c.js
+        /opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac36c.dir/link.txt --verbose=1
+        /home/runner/work/_temp/e68253d4-ea2e-432c-9090-d121f010199b/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_ac36c.dir/objects1.rsp -o cmTC_ac36c.js
+        gmake[1]: Leaving directory '/home/runner/work/sandbox/sandbox/build/CMakeFiles/CMakeScratch/TryCompile-72V7ip'
         
       exitCode: 0
 ...
