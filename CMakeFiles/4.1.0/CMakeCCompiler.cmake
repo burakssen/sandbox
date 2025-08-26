@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/emcc")
+set(CMAKE_C_COMPILER "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/emcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "22.0.0")
@@ -23,10 +23,10 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "")
 
 
 
-set(CMAKE_AR "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/emar")
-set(CMAKE_C_COMPILER_AR "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/emar")
-set(CMAKE_RANLIB "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/emranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/emranlib")
+set(CMAKE_AR "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/emar")
+set(CMAKE_C_COMPILER_AR "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/emar")
+set(CMAKE_RANLIB "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/emranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/emranlib")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/cache/sysroot/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/runner/work/_temp/e5e128cf-f4f5-4e4d-a32d-0006956004e3/emsdk-main/upstream/emscripten/cache/sysroot/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
