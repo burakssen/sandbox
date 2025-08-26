@@ -63,7 +63,7 @@ void Application::frame()
 
     // Render frame
     BeginDrawing();
-    ClearBackground(BLACK);
+    ClearBackground(DARKGRAY);
 
     // Draw the world
     m_renderer.draw(m_world);
