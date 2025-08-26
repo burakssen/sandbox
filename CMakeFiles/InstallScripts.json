@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/runner/work/sandbox/sandbox/build/cmake_install.cmake",
+		"/home/runner/work/sandbox/sandbox/build/_deps/raylib-build/cmake_install.cmake",
+		"/home/runner/work/sandbox/sandbox/build/_deps/raylib-build/raylib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

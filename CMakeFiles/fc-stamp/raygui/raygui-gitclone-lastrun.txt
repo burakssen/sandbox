@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/sandbox/sandbox/build/CMakeFiles/fc-tmp/raygui/raygui-gitclone.cmake
+source_dir=/home/runner/work/sandbox/sandbox/build/_deps/raygui-src
+work_dir=/home/runner/work/sandbox/sandbox/build/_deps
+repository=https://github.com/raysan5/raygui.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

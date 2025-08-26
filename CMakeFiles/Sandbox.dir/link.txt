@@ -1,0 +1,1 @@
+/home/runner/work/_temp/3e486d1c-bc6f-4c24-a2d2-de449ec4ba23/emsdk-main/upstream/emscripten/em++ -O3 -DNDEBUG -sASSERTIONS -sUSE_GLFW=3 -sINITIAL_MEMORY=167772160 -sASYNCIFY=1 -sASYNCIFY_IMPORTS=['emscripten_sleep'] --shell-file /home/runner/work/sandbox/sandbox/index.html -sUSE_GLFW=3 @CMakeFiles/Sandbox.dir/objects1.rsp -o Sandbox.js @CMakeFiles/Sandbox.dir/linkLibs.rsp

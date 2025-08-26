@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/sandbox/sandbox/build/CMakeFiles/fc-tmp/raygui/raygui-gitupdate.cmake
+command (disconnected)=/opt/hostedtoolcache/cmake/4.1.0/x64/cmake-4.1.0-linux-x86_64/bin/cmake;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/runner/work/sandbox/sandbox/build/CMakeFiles/fc-tmp/raygui/raygui-gitupdate.cmake
+work_dir=/home/runner/work/sandbox/sandbox/build/_deps/raygui-src
