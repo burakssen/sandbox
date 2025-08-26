@@ -152,8 +152,8 @@ void Application::processInput()
     Rectangle waterBtn = {120, 40, 100, 30};
     Rectangle stoneBtn = {10, 80, 100, 30};
     Rectangle fireBtn = {120, 80, 100, 30};
-    Rectangle clearBtn = {10, 120, 210, 30};
-    Rectangle oilBtn = {10, 160, 100, 30};
+    Rectangle oilBtn = {10, 120, 100, 30};
+    Rectangle clearBtn = {120, 120, 100, 30};
 
     // Set button colors based on current type
     GuiSetStyle(BUTTON, BORDER_COLOR_NORMAL, ColorToInt(btnBorderColor));
