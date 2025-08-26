@@ -1,0 +1,51 @@
+name: Build and Deploy WebAssembly
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Set up Emscripten SDK
+        uses: mymindstorm/setup-emsdk@v14
+
+      - name: Verify Emscripten
+        run: emcc -v
+
+      - name: Set up CMake
+        uses: jwlawson/actions-setup-cmake@v2
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Configure CMake for WebAssembly
+        run: |
+          mkdir -p build
+          cd build
+          emcmake cmake .. -DPLATFORM=Web -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build WebAssembly
+        run: |
+          cd build
+          emmake make -j
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          CLEAN: true
