@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include <raylib.h>
+#include <functional>
 
 enum class PixelType
 {
@@ -8,17 +9,18 @@ enum class PixelType
     SAND,
     WATER,
     STONE,
-    FIRE
+    FIRE,
+    OIL,
 };
 
 // Packed struct for better memory efficiency
 struct alignas(8) Pixel
 {
-    PixelType type : 4;    // 4 bits for type (0-15 possible values)
-    bool updated : 1;      // 1 bit for update flag
-    float lifetime;        // 4 bytes for lifetime
-    float velocityY;       // 4 bytes for vertical velocity
-    
+    PixelType type : 4; // 4 bits for type (0-15 possible values)
+    bool updated : 1;   // 1 bit for update flag
+    float lifetime;     // 4 bytes for lifetime
+    float velocityY;    // 4 bytes for vertical velocity
+
     Pixel() : type(PixelType::EMPTY), updated(false), lifetime(0.0f), velocityY(0.0f) {}
 };
 
@@ -41,6 +43,10 @@ private:
     void updateSand(int x, int y);
     void updateWater(int x, int y);
     void updateFire(int x, int y, float dt);
+    void updateOil(int x, int y);
 
-    inline int idx(int x, int y) const { return y * m_width + x; }
+    inline int idx(int x, int y) const
+    {
+        return y * m_width + x;
+    }
 };

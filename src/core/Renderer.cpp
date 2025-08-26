@@ -23,6 +23,9 @@ void Renderer::draw(const PixelWorld &world)
             case PixelType::FIRE:
                 c = {255, 80, 20, 255};
                 break;
+            case PixelType::OIL:
+                c = {30, 30, 30, 255};
+                break;
             default:
                 break;
             }

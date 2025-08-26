@@ -29,23 +29,27 @@ Application::~Application() { CloseWindow(); }
 #include <emscripten.h>
 
 // Static wrapper function for Emscripten main loop
-static void emscriptenMainLoop(void* app) {
-    static_cast<Application*>(app)->frame();
+static void emscriptenMainLoop(void *app)
+{
+    static_cast<Application *>(app)->frame();
 }
 #endif
 
-void Application::frame() {
-    if (!m_running || WindowShouldClose()) {
-        #ifdef __EMSCRIPTEN__
+void Application::frame()
+{
+    if (!m_running || WindowShouldClose())
+    {
+#ifdef __EMSCRIPTEN__
         emscripten_cancel_main_loop();
-        #endif
+#endif
         return;
     }
 
     // Update window dimensions if resized
     int newWidth = GetScreenWidth();
     int newHeight = GetScreenHeight();
-    if (newWidth != m_width || newHeight != m_height) {
+    if (newWidth != m_width || newHeight != m_height)
+    {
         m_width = newWidth;
         m_height = newHeight;
         m_renderer.setScale(m_scale);
@@ -53,7 +57,7 @@ void Application::frame() {
 
     // Process input
     processInput();
-    
+
     // Update world state
     m_world.update(GetFrameTime());
 
@@ -65,11 +69,14 @@ void Application::frame() {
     m_renderer.draw(m_world);
 
     // Draw GUI
-    if (!m_guiLock) {
+    if (!m_guiLock)
+    {
         GuiLock();
         processInput(); // This will draw the GUI
         GuiUnlock();
-    } else {
+    }
+    else
+    {
         // If GUI is locked, still process input but don't draw
         processInput();
     }
@@ -80,16 +87,18 @@ void Application::frame() {
     EndDrawing();
 }
 
-void Application::run() {
-    #ifdef __EMSCRIPTEN__
+void Application::run()
+{
+#ifdef __EMSCRIPTEN__
     // Use browser's requestAnimationFrame for WebAssembly
     emscripten_set_main_loop_arg(emscriptenMainLoop, this, 0, 1);
-    #else
+#else
     // Standard desktop game loop
-    while (m_running && !WindowShouldClose()) {
+    while (m_running && !WindowShouldClose())
+    {
         frame();
     }
-    #endif
+#endif
 }
 
 Vector2 Application::getScaledMousePosition()
@@ -101,11 +110,11 @@ Vector2 Application::getScaledMousePosition()
     static int lastScreenWidth = 0;
     static int lastScreenHeight = 0;
     static float invScale = 1.0f / static_cast<float>(m_scale);
-    
+
     // Update cache if screen size or scale changes
     int currentWidth = GetScreenWidth();
     int currentHeight = GetScreenHeight();
-    if (currentWidth != lastScreenWidth || currentHeight != lastScreenHeight || invScale != 1.0f/static_cast<float>(m_scale))
+    if (currentWidth != lastScreenWidth || currentHeight != lastScreenHeight || invScale != 1.0f / static_cast<float>(m_scale))
     {
         lastScreenWidth = currentWidth;
         lastScreenHeight = currentHeight;
@@ -144,6 +153,7 @@ void Application::processInput()
     Rectangle stoneBtn = {10, 80, 100, 30};
     Rectangle fireBtn = {120, 80, 100, 30};
     Rectangle clearBtn = {10, 120, 210, 30};
+    Rectangle oilBtn = {10, 160, 100, 30};
 
     // Set button colors based on current type
     GuiSetStyle(BUTTON, BORDER_COLOR_NORMAL, ColorToInt(btnBorderColor));
@@ -168,10 +178,10 @@ void Application::processInput()
 
     // Check if mouse is over any GUI element
     bool mouseOverGUI = CheckCollisionPointRec(mousePos, sandBtn) ||
-                       CheckCollisionPointRec(mousePos, waterBtn) ||
-                       CheckCollisionPointRec(mousePos, stoneBtn) ||
-                       CheckCollisionPointRec(mousePos, fireBtn) ||
-                       CheckCollisionPointRec(mousePos, clearBtn);
+                        CheckCollisionPointRec(mousePos, waterBtn) ||
+                        CheckCollisionPointRec(mousePos, stoneBtn) ||
+                        CheckCollisionPointRec(mousePos, fireBtn) ||
+                        CheckCollisionPointRec(mousePos, clearBtn);
 
     // Update GUI lock state based on mouse interaction with GUI elements
     if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON) || IsMouseButtonPressed(MOUSE_RIGHT_BUTTON))
@@ -224,7 +234,7 @@ void Application::processInput()
     // Set scissor mode just for GUI elements
     // Note: raylib's scissor mode is global, so we'll just set it for GUI
     // and then disable it after we're done
-    BeginScissorMode(0, 0, 240, 160);
+    BeginScissorMode(0, 0, 240, 240);
 
     // Sand Button
     if (m_currentType == PixelType::SAND)
@@ -266,6 +276,17 @@ void Application::processInput()
         m_currentType = PixelType::FIRE;
     }
 
+    // Oil Button
+    if (m_currentType == PixelType::OIL)
+        GuiSetStyle(BUTTON, BASE_COLOR_NORMAL, ColorToInt(activeColor));
+    else
+        GuiSetStyle(BUTTON, BASE_COLOR_NORMAL, ColorToInt(Fade(DARKGRAY, 0.6f)));
+
+    if (GuiButton(oilBtn, "Oil"))
+    {
+        m_currentType = PixelType::OIL;
+    }
+
     // Clear Button (special style)
     GuiSetStyle(BUTTON, BASE_COLOR_NORMAL, ColorToInt(Fade(RED, 0.6f)));
     GuiSetStyle(BUTTON, BORDER_COLOR_FOCUSED, ColorToInt(RED));
@@ -296,6 +317,9 @@ void Application::processInput()
         break;
     case PixelType::EMPTY:
         currentTypeText = "Current: Eraser";
+        break;
+    case PixelType::OIL:
+        currentTypeText = "Current: Oil";
         break;
     }
     DrawText(currentTypeText, 10, 10, 20, WHITE);
