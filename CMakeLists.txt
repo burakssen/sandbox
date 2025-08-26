@@ -63,7 +63,7 @@ target_include_directories(Sandbox PRIVATE ${raygui_SOURCE_DIR}/src)
 # -----------------------------
 if(EMSCRIPTEN)
     set_target_properties(Sandbox PROPERTIES 
-        LINK_FLAGS "-s USE_GLFW=3 -s INITIAL_MEMORY=16777216 -s ASYNCIFY=1 -s ASYNCIFY_IMPORTS=['emscripten_sleep'] --shell-file ${CMAKE_SOURCE_DIR}/index.html"
+        LINK_FLAGS "-sASSERTIONS -sUSE_GLFW=3 -sINITIAL_MEMORY=167772160 -sASYNCIFY=1 -sASYNCIFY_IMPORTS=['emscripten_sleep'] --shell-file ${CMAKE_SOURCE_DIR}/index.html"
     )
     file(COPY ${CMAKE_SOURCE_DIR}/index.html DESTINATION ${CMAKE_BINARY_DIR})
 endif()
